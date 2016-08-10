@@ -1,4 +1,4 @@
-# 2 Getting Started
+ 2 Getting Started
 
 * [2.1 Insertion sort](exercises_2.1.md)
 * [2.2 Analyzing algorithms](exercises_2.2.md)
