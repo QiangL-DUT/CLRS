@@ -79,6 +79,6 @@ int main() {
 		C[i].resize(N);
 	}
 	Strassen(A, Pos(0, 0, N), B, Pos(0, 0, N), C, Pos(0, 0, N));
-	system("pause");
+	return 0;
 }
 
