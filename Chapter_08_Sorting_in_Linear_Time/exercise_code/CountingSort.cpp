@@ -4,7 +4,7 @@
 #include <time.h>
 using namespace std;
 
-void CountingSort(vector<int>& A, vector<int>& B, int k) {
+void CountingSort(const vector<int>& A, vector<int>& B, int k) {
 	vector<int> C(k + 1, 0);
 	for (int j = 0; j < A.size(); ++j) {
 		++C[A[j]];
