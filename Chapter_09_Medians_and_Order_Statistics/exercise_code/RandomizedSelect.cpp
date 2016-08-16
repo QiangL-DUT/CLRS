@@ -49,13 +49,16 @@ void Print(const vector<int>& A) {
 	cout << endl;
 }
 
+const int N = 10;
+
 int main() {
 	srand((int)time(NULL));
-	vector<int> A = { 3, 2, 9, 0, 7, 5, 4, 8, 6, 1 };
+	vector<int> A(N);
+	for (int i = 0; i < N; ++i) {
+		A[i] = rand() % 100;
+	}
 	cout << "A: ";
 	Print(A);
-
 	cout << "RandomizedSelect(A, 3): " << RandomizedSelect(A, 0, A.size() - 1, 3);
-
 	return 0;
 }
