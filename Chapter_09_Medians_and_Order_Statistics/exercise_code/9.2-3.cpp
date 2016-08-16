@@ -1,6 +1,5 @@
 #include <iostream>
 #include <vector>
-#include <time.h>
 using namespace std;
 
 inline void swap(int& a, int& b) {
@@ -53,12 +52,9 @@ void Print(const vector<int>& A) {
 }
 
 int main() {
-	srand((int)time(NULL));
 	vector<int> A = { 3, 2, 9, 0, 7, 5, 4, 8, 6, 1 };
 	cout << "A: ";
 	Print(A);
-
 	cout << "RandomizedSelect(A, 3): " << RandomizedSelect(A, 0, A.size() - 1, 3);
-
 	return 0;
 }
