@@ -21,11 +21,8 @@ void Print(const vector<int>& A) {
 }
 
 int main() {
-	srand((int)time(NULL));
 	vector<int> A = { 3, 5, 6 };
 	vector<int> B = { 4, 7, 9 };
-
 	cout << "MedianOfTwo(A, B): " << MedianOfTwo(A, 0, A.size() - 1, B, 0, B.size() - 1);
-
 	return 0;
 }
