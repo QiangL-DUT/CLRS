@@ -18,7 +18,7 @@ void Init(Queue& Q, int size) {
 
 void EnQueue(Queue& Q, int x) {
 	if ((Q.tail + 1) % Q.length == Q.head) {
-		cout << "underflow!" << endl;
+		cout << "overflow!" << endl;
 		return;
 		//exit(0);
 	}
@@ -33,7 +33,7 @@ void EnQueue(Queue& Q, int x) {
 
 int DeQueue(Queue& Q) {
 	if (Q.tail == Q.head) {
-		cout << "overflow!" << endl;
+		cout << "underflow!" << endl;
 		return 0;
 		//exit(0);
 	}
