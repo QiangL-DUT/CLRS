@@ -71,5 +71,6 @@ int main() {
 	Print(L2);
 	L = Union(L1, L2);
 	Print(L);
+	Destroy(L);
 	return 0;
 }
