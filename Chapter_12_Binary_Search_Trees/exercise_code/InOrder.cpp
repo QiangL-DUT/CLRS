@@ -45,7 +45,7 @@ void InOrder(Node* root) {
 }
 
 int main() {
-	vector<int> v = { 6, 5, 2, -1, -1, 5, -1, -1, 7, -1, 8, -1, -1 };
+	vector<int> v = { 6, 5, 2, -1, -1, 5, -1, -1, 7, -1, 8, -1, -1 };   //Fig.12-1(a)
 	int i = -1;
 	Node* root = CreateTree(v, i);
 	InOrder(root);
