@@ -152,15 +152,15 @@ int main() {
 	root = TreeInsert(root, 4);
 	InOrder(root);
 	cout << endl;
-	cout << "TreeDelete(7) :";
+	cout << "TreeDelete(7): ";
 	root = TreeDelete(root, Search(root, 7));
 	InOrder(root);
 	cout << endl;
-	cout << "TreeDelete(5) :";
+	cout << "TreeDelete(5): ";
 	root = TreeDelete(root, Search(root, 5));
 	InOrder(root);
 	cout << endl;
-	cout << "TreeDelete(6) :";
+	cout << "TreeDelete(6): ";
 	root = TreeDelete(root, Search(root, 6));
 	InOrder(root);
 	Destroy(root);
